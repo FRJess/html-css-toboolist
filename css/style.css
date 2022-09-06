@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #eaeff2;
+}
+
+header{
+  background-color: #ffffff;
+  padding: 10px 15px;
+}
+
+header img{
+  vertical-align: middle;
+}
+
+#logo-text{
+  font-size: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #031732;
+  vertical-align: middle;
+}
