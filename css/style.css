@@ -1,3 +1,5 @@
+/* GENERAL */
+
 *{
   padding: 0;
   margin: 0;
@@ -7,6 +9,15 @@
 body{
   background-color: #eaeff2;
 }
+
+.container{
+  width: 70%;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+/* HEADER */
 
 header{
   background-color: #ffffff;
@@ -23,3 +34,26 @@ header img{
   color: #031732;
   vertical-align: middle;
 }
+
+/* MAIN */
+
+.top{
+  padding: 15px 0px 10px 40px;
+}
+
+.top button{
+  border: 1px solid #eaeff2;
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color:#C6CCD1
+  }
+
+  #task{
+    background-color: #47ADF1;
+    color: #ffffff
+  }
