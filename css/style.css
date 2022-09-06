@@ -58,10 +58,18 @@ header img{
   color:#C6CCD1
   }
 
-#task{
+.top #task{
   background-color: #47ADF1;
   color: #ffffff
 }
+
+ul {
+  list-style-type: none;
+ }
+
+li{
+  padding: 0px 0px 15px 0px;
+ }
 
 .list{
   padding: 15px 0px 10px 40px;
@@ -69,11 +77,9 @@ header img{
 
 .list-name{
   font-weight: 600;
-}
-
-.list .list-toggle{
   padding: 15px 0px 10px 0px;
 }
+
 
 .list-name::before{
   content: '\25BE';
@@ -93,6 +99,46 @@ header img{
   font-size: 10px
   }
 
+.button-two{
+  display: inline-block;
+  border: none;
+  width: 70px;
+  height: 25px;
+  line-height: 5px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #9C72E4;
+  color:#ffffff;
+  font-size: 10px
+  }
+
+.button-three{
+  display: inline-block;
+  border: none;
+  width: 70px;
+  height: 25px;
+  line-height: 5px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #64C0A9;
+  color:#ffffff;
+  font-size: 10px
+  }
+
+.button-four{
+  display: inline-block;
+  border: none;
+  width: 70px;
+  height: 25px;
+  line-height: 5px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #F29E33;
+  color:#ffffff;
+  font-size: 10px
+  }
+
+
 .done-element::before{
   content: '\02713';
   color: #00B79A;
@@ -103,4 +149,16 @@ header img{
   text-align: center;
   border-radius: 50%;
   border: 1px solid #00B79A;
+  }
+
+.undone-element::before{
+  content: '\00058';
+  color: #EC7C77;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #EC7C77;
   }
