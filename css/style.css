@@ -4,33 +4,42 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
 }
 
 body{
+  font-family: 'Roboto', sans-serif;
   background-color: #eaeff2;
 }
 
 .container{
   width: 70%;
-  margin: 50px auto;
+  margin: 0px auto;
   background-color: #ffffff;
   border-radius: 5px;
 }
 
-hr{
-  border-top: 1px solid #eaeff2;
-}
+.btn{
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  }
 
 /* HEADER */
 
 header{
   background-color: #ffffff;
+  height: 70px;
   padding: 10px 15px;
+  margin-bottom: 50px;
 }
 
 header img{
   vertical-align: middle;
+  height: 100%;
 }
 
 header #logo-text{
@@ -43,32 +52,28 @@ header #logo-text{
 /* MAIN */
 
 .top{
-  padding: 15px 0px 10px 40px;
+  padding: 15px 40px;
+  border-bottom: 1px solid #eaeff2;
 }
 
-.top button{
-  border: 1px solid #eaeff2;
-  display: inline-block;
-  width: 80px;
-  height: 30px;
-  line-height: 20px;
-  text-align: center;
-  border-radius: 5px;
-  background-color: #ffffff;
-  color:#C6CCD1
-  }
-
-.top #task{
+.btn-filled{
   background-color: #47ADF1;
-  color: #ffffff
+  color: #ffffff;
+  border: 1px solid #47ADF1;
+}
+
+.btn-empty{
+  background-color: #ffffff;
+  color:#C6CCD1;
+  border: 1px solid #eaeff2;
 }
 
 .list{
-  padding: 15px 0px 10px 40px;
+  padding: 15px 40px;
 }
 
 .list ul {
-  list-style-type: none;
+  list-style: none;
  }
 
 .list li{
@@ -85,62 +90,55 @@ header #logo-text{
   padding-right: 5px;
 }
 
-li button{
+.tag{
   display: inline-block;
-  border: none;
-  width: 70px;
-  height: 25px;
-  line-height: 5px;
-  text-align: center;
+  padding: 5px 10px;
   border-radius: 10px;
   color:#ffffff;
   font-size: 10px
   }   
 
-.button-one{
+.editorial{
   background-color: #47ADF1;
   }
 
-.button-two{
+.goals{
   background-color: #9C72E4;
   }
 
-.button-three{
+.recruit{
   background-color: #64C0A9;
   }
 
-.button-four{
+.mobile{
   background-color: #F29E33;
   }
 
-.button-five{
+.website{
   background-color: #D863A1;
   }  
 
-.button-six{
+.sales{
   background-color: #AFC926;
   }  
 
-.done-element::before{
-  content: '\02713';
-  color: #00B79A;
+.circle::before{
   display: inline-block;
   width: 15px;
   height: 15px;
   line-height: 15px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #00B79A;
+  font-size: 10px;
   }
 
-.undone-element::before{
+.undone::before{
   content: '\00058';
   color: #EC7C77;
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  line-height: 15px;
-  text-align: center;
-  border-radius: 50%;
   border: 1px solid #EC7C77;
   }
+.done::before{
+  content: '\02713';
+  color: #00B79A;
+  border: 1px solid #00B79A;
+}

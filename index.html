@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -33,21 +33,20 @@
 
     <!-- inizio top-main -->
     <div class="top">
-      <button id="task">Add task</button>
-      <button>Add selection</button>
+      <button class= "btn btn-filled">Add task</button>
+      <button class= "btn btn-empty">Add Slection</button>
     </div>
     <!-- fine top-main -->  
 
-    <hr>
-
     <!-- inizio liste -->
     <section class="list">
+
       <div class="list-toggle">
         <h3 class="list-name">New task</h3>
         <ul>
-          <li class="done-element"> 
+          <li class="circle done"> 
             <span>Quarterly Newsletter</span> 
-            <button class="button-one">Editorial</button>
+            <span class="tag editorial">Editorial</span>
           </li>
         </ul>
         
@@ -56,21 +55,21 @@
       <div class="list-toggle">
         <h3 class="list-name">Today</h3>
         <ul>
-          <li class="done-element"> 
+          <li class="circle undone"> 
             <span>Recruiting blog post</span>
-            <button class="button-one">Editorial</button>
+            <span class="tag editorial">Editorial</span>
           </li>
-          <li class="done-element"> 
+          <li class="circle done"> 
             <span>Mobile app launch</span>
-            <button class="button-two">Q1 Goals</button>
+            <span class="tag goals">Q1 Goals</span>
           </li>
-          <li class="undone-element"> 
+          <li class="circle undone"> 
             <span>Interview John H.</span>
-            <button class="button-three">Recruiting</button>
+            <span class="tag recruit">Recruiting</span>
           </li>
-          <li class="done-element"> 
+          <li class="circle done"> 
             <span>Summit update to mobile storefronts</span>
-            <button class="button-four">Mobile</button>
+            <span class="tag mobile">Mobile</span>
           </li>
         </ul> 
       </div>
@@ -78,21 +77,21 @@
       <div class="list-toggle">
         <h3 class="list-name">Upcoming</h3>
         <ul>
-          <li class="undone-element"> 
+          <li class="circle undone"> 
             <span>Shedule meeting with Alex</span>
           </li>
-          <li class="done-element"> 
+          <li class="circle done"> 
             <span>Homepage refresh</span>
-            <button class="button-five">Website</button>
+            <span class="tag website">Website</span>
           </li>
-          <li class="done-element"> 
+          <li class="circle done"> 
             <span>Onboard new Sales team members</span>
-            <button class="button-six">Sales</button>
+            <span class="tag sales">Sales</span>
           </li>
 
-          <li class="done-element"> 
+          <li class="circle done"> 
             <span>Review editorial calendar</span>
-            <button class="button-one">Editorial</button>
+            <span class="tag editorial">Editorial</span>
           </li>
         </ul> 
       </div>
